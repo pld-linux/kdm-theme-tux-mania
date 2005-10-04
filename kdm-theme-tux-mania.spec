@@ -12,7 +12,6 @@ Source0:	http://www.kde-look.org/content/files/22187-%{_theme}.tar.bz2
 # Source0-md5:	bb3aa0083d349432f165f6d7eb7b62ba
 URL:		http://www.kde-look.org/content/show.php?content=22187
 Requires:	kdebase-desktop >= 9:3.2.0
-Requires:	kdmtheme
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_tm	tux-mania
