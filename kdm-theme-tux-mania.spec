@@ -2,7 +2,7 @@
 %define		_theme		Tux-Mania
 
 Summary:	Tux-Mania KDM theme
-Summary(pl):	Motyw KDM Tux-Mania
+Summary(pl.UTF-8):   Motyw KDM Tux-Mania
 Name:		kdm-theme-%{_theme}
 Version:	01
 Release:	2
@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Tux-Mania of KDM Theme.
 
-%description -l pl
+%description -l pl.UTF-8
 Motyw KDM Tux-Mania.
 
 %prep
